@@ -1,0 +1,188 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth
+}
+h3{
+  padding: 25px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+header{
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.nav-bar ul li{
+  display: inline-block;
+  margin: 15px;
+}
+.nav-bar ul li a{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: orangered;
+  transition: 0.6s;
+}
+.nav-bar ul li a:hover{
+  transition: 0.6s;
+  text-shadow: 0 0 10px orangered,
+               0 0 20px orangered,
+               0 0 30px orangered,
+               0 0 40px orangered;
+  color: snow;
+  font-family: serif;
+}
+.logo{
+  width: 70px;
+  transition: 0.6s
+}
+.logo:hover{
+  transition: 0.6s;
+  transform: rotate(360deg);
+  filter: drop-shadow(0 0 5px green)
+}
+.btn1{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+  background: orangered;
+  border-radius: 5px;
+  color: snow;
+  transition: 0.6s;
+}
+.btn1:hover{
+  transition: 0.6s;
+  background: transparent;
+  color: orangered;
+  border: solid 3px orangered;
+  font-family: serif;
+}
+.contant{
+  background-image: url(img/fruits2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25vh;
+  padding: 2% 5%;
+  display: flex;
+  justify-content: right;
+  align-items: center
+}
+.text-contant span{
+  margin: 15px;
+  font-family: monospace;
+  font-size: bold;
+  font-size: 25px;
+}
+.text-contant h1{
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: red;
+  margin: 15px;
+  text-shadow: 0 0 10px orange,
+               0 0 20px orange,
+               0 0 30px orange,
+               0 0 40px orange;
+}
+.text-contant p{
+  width: 450px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 15px;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+  gap: 30px
+}
+.img-products{
+  margin: 15px;
+  border: solid 3px silver;
+  border-radius: 15px;
+  transition: 0.6s
+}
+.img-products:hover{
+  transition: 0.6s;
+  background: orangered;
+  color: snow;
+  transform: translate(0,-15px);
+  border: none;
+}
+.text-fru{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: snow;
+  text-shadow: 0 0 10px orangered,
+               0 0 20px orangered,
+               0 0 30px orangered,
+               0 0 40px orangered;
+}
+.price-fru{
+  margin: 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 25px;
+  color: darkred;
+}
+.btn-fru{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 100%;
+  padding: 4px;
+  background: orangered;
+  border: none;
+  font-size: 25px;
+  color: snow;
+  transition: 0.6s;
+}
+.btn-fru:hover{
+  transition: 0.6s;
+  background: snow;
+  color: orangered;
+  border: solid 2px orangered;
+  border-radius: 15px;
+}
+.fru{
+  width: 200px;
+}
+.nav-products{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.nav-products li{
+  display: inline-block;
+  margin: 15px;
+}
+.nav-products li a{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: orangered;
+  font-size: 22px;
+  border-bottom: solid 3px orangered;
+  transition: 0.6s
+}
+.nav-products li a:hover{
+  transition: 0.6s;
+  background: orangered;
+  color: snow;
+  border: none;
+  padding: 5px;
+  border-radius: 15px
+} 
